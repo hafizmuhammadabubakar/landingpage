@@ -200,7 +200,7 @@
 	}
 
 	.hero p {
-		font-size: 20px;
+		font-size: 24px;
 		font-weight: bolder;
 	}
 
@@ -211,7 +211,7 @@
 	}
 
 	.hero2 {
-		width: 100%;
+		width: 70%;
 		height: 180px;
 	}
 
@@ -221,7 +221,7 @@
 	}
 
 	.nav-and-hero {
-		padding: 0px 15px 15px 15px;
+		padding: 0px 8px 8px 8px;
 	}
 }
 
@@ -257,24 +257,24 @@
 	}
 
 	.hero2 {
-		width: 100%;
+		width: 70%;
 		height: 160;
 	}
 
 	.hero2 p {
-		font-size: 22px;
+		font-size: 16px;
 		font-weight: bolder;
 	}
 
 	.nav-and-hero {
-		padding: 0px 15px 15px 15px;
+		padding: 0px 8px 8px 8px;
 	}
   }
 
   @media only screen and (max-width: 400px) {
 	.heromain {
-		gap: 15px;
-		margin-top: 3px;
+		gap: 8px;
+		margin-top: 2px;
 	}
 
 	.hero {
@@ -286,26 +286,27 @@
 	}
 
 	.hero p {
-		font-size: 12px;
+		font-size: 13px;
 		font-weight: bolder;
 	}
 
 	.hero button {
 		margin-top: 8px;
 		font-size: 14px;
+		width: 100%;
 	}
 
 	.hero2 {
-		width: 100%;
-		height: 130px;
+		width: 60%;
+		height: 110px;
 	}
 
 	.hero2 p {
-		font-size: 12px;
+		font-size: 10px;
 	}
 
 	.nav-and-hero {
-		padding: 0px 10px 10px 10px;
+		padding: 0px 5px 5px 5px;
 	}
   }
 
@@ -316,15 +317,15 @@
 .information {
 	height: fit-content;
 	background-color: #FFF;
-	padding: 0px 30px 50px 30px;
+	padding: 0px 15px 20px 15px;
 }
 
 .information h2 {
 	text-align: center;
-	padding: 10px;
-	margin-top: 10px;
+	padding: 5px;
+	margin-top: 5px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-size: 3.3vw;
+	font-size: 24px;
 	color: #1F2937;
 }
 
@@ -335,43 +336,45 @@
 	justify-content: center;
 	align-items: center;
 	gap: 10px;
-	padding: 15px 50px 15px 50px;
+	padding: 5px 30px;
 }
 
 .outerbox {
-	width: 100%;
+	width: 140px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	
 }
 
 .outerbox p {
-	width: 80%;
-	font-size: 1.2vw;
-	font-weight: 600;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: center;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 0 8px;
 }
 
 .innerbox {
-	width: 100%;
-	height: 15vw;
+	width: 130px;
+	height: 130px;
 	border: 3px solid #3882F6;
 	border-radius: 10px;
-	margin-bottom: 5px;
+	margin-bottom: 2px;
 }
 
-/*
+
 @media only screen and (max-width: 935px) { 
 
 	.information {
-		padding-bottom: 20px;
+		padding-bottom: 15px;
 	}
 	.information h2 {
-		padding: 5px;
-		margin-top: 5px;
-		font-size: 30px;
+		padding: 3px;
+		margin-top: 3px;
+		font-size: 20px;
 	}
 
 	.infodiv {
@@ -379,11 +382,11 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		gap: 10px;
+		gap: 6px;
 	}
 
 	.outerbox {
-		width: 16vh;
+		width: 120px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -393,12 +396,11 @@
 	
 	.outerbox p {
 		font-size: 10px;
-		width: 13vh;
 	}
 
 	.innerbox {
-		width: 14vh;
-		height: 120px;
+		width: 100px;
+		height: 100px;
 		border: 3px solid #3882F6;
 		border-radius: 10px;
 		margin-bottom: 2px;
@@ -409,40 +411,29 @@
 @media only screen and (max-width: 600px) {
 
 	.information {
-		padding-bottom: 20px;
+		padding-bottom: 15px;
 	}
 	.information h2 {
 		padding: 3px;
 		margin-top: 3px;
-		font-size: 19px;
+		font-size: 16px;
 	}
 
 	.infodiv {
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		gap: 5px;
+		gap: 4px;
 	}
 
 	.outerbox {
-		width: 12vh;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		text-align: center;
+		width: 100px;
 	}
 	
 	.outerbox p {
-		font-size: 8px;
-		width: 10vh;
-		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 7px;
 	}
 
 	.innerbox {
-		width: 10vh;
-		height: 95px;
+		width: 80px;
+		height: 80px;
 		border: 2px solid #3882F6;
 		border-radius: 5px;
 		margin-bottom: 2px;
@@ -451,7 +442,7 @@
 
 @media only screen and (max-width: 400px) {
 	.information {
-		padding-bottom: 10px;
+		padding-bottom: 8px;
 	}
 	.information h2 {
 		padding: 2px;
@@ -464,23 +455,22 @@
 	}
 
 	.outerbox {
-		width: 8vh;
+		width: 80px;
 	}
 	
 	.outerbox p {
 		font-size: 5px;
-		width: 7vh;
 	}
 
 	.innerbox {
-		width: 6vh;
-		height: 70px;
+		width: 60;
+		height: 60px;
 		border: 2px solid #3882F6;
-		border-radius: 5px;
+		border-radius: 4px;
 		margin-bottom: 1px;
 	}
 }
-*/
+
 
 /*Styling Information End*/
 
