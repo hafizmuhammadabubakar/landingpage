@@ -282,11 +282,11 @@
 	}
 
 	.hero h2 {
-		font-size: 22px;
+		font-size: 24px;
 	}
 
 	.hero p {
-		font-size: 13px;
+		font-size: 15px;
 		font-weight: bolder;
 	}
 
@@ -297,12 +297,12 @@
 	}
 
 	.hero2 {
-		width: 60%;
+		width: 100%;
 		height: 110px;
 	}
 
 	.hero2 p {
-		font-size: 10px;
+		font-size: 13px;
 	}
 
 	.nav-and-hero {
