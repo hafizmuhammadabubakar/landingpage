@@ -338,19 +338,19 @@
 }
 
 .outerbox {
-	width: 100%;
-	border: transparent;
+	width: 22vh;
+	border: 2px solid green;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	padding: 5px;
+	padding: 1px;
 }
 
 .outerbox p {
-	padding: 3px;
-	font-size: 12px;
+	width: 16vh;
+	font-size: 1.3vh;
 	font-weight: 600;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -385,7 +385,7 @@
 	}
 
 	.outerbox {
-		width: 100%;
+		width: 16vh;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -395,6 +395,7 @@
 	
 	.outerbox p {
 		font-size: 10px;
+		width: 13vh;
 	}
 
 	.innerbox {
@@ -427,7 +428,7 @@
 	}
 
 	.outerbox {
-		width: 100%;
+		width: 12vh;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -437,6 +438,7 @@
 	
 	.outerbox p {
 		font-size: 8px;
+		width: 10vh;
 		font-family: Verdana, Geneva, Tahoma, sans-serif;
 	}
 
@@ -464,11 +466,12 @@
 	}
 
 	.outerbox {
-		width: 100%;
+		width: 8vh;
 	}
 	
 	.outerbox p {
 		font-size: 5px;
+		width: 7vh;
 	}
 
 	.innerbox {
