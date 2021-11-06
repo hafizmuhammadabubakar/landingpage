@@ -142,12 +142,12 @@
 	color: #E5E7EB;
 	font-size: 48px;
 	line-height: 36px;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 
 .hero p {
 	color: #E5E7EB;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .hero button {
@@ -212,6 +212,7 @@
 
 	.hero2 {
 		width: 100%;
+		height: 180px;
 	}
 
 	.hero2 p {
@@ -257,6 +258,7 @@
 
 	.hero2 {
 		width: 100%;
+		height: 160;
 	}
 
 	.hero2 p {
@@ -295,11 +297,11 @@
 
 	.hero2 {
 		width: 100%;
+		height: 130px;
 	}
 
 	.hero2 p {
-		font-size: 14px;
-		font-weight: bolder;
+		font-size: 12px;
 	}
 
 	.nav-and-hero {
@@ -445,24 +447,24 @@
 
 @media only screen and (max-width: 400px) {
 	.information {
-		padding-bottom: 15px;
+		padding-bottom: 10px;
 	}
 	.information h2 {
 		padding: 2px;
 		margin-top: 2px;
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	.infodiv {
-		gap: 6px;
+		gap: 4px;
 	}
 
 	.outerbox {
-		width: 90px;
+		width: 80px;
 	}
 	
 	.outerbox p {
-		font-size: 6px;
+		font-size: 5px;
 	}
 
 	.innerbox {
@@ -470,7 +472,7 @@
 		height: 70px;
 		border: 2px solid #3882F6;
 		border-radius: 5px;
-		margin-bottom: 2px;
+		margin-bottom: 1px;
 	}
 }
 
@@ -558,18 +560,18 @@
 	}
 
 	.quoteinside {
-		width: 250px;
-		margin: 4px;
+		width: 240px;
+		margin: 3px;
 	}
 	
 	.quoteinside p {
-		font-size: 12px;
+		font-size: 10px;
 	}
 	
 	.quoteinside h5 {
 		float: right;
 		font-weight: bolder;
-		font-size: 9px;
+		font-size: 8px;
 	}
 }
 
@@ -664,7 +666,7 @@
 
 @media only screen and (max-width: 400px) {
 	.signup {
-		padding: 8px 0 8px 0;
+		padding: 3px 0 3px 0;
 	}
 
 	.signupdiv h4 {
@@ -672,12 +674,12 @@
 	}
 	
 	.signupdiv p {
-		font-size: 6px;
+		font-size: 7px;
 	}
 	
 	.sigupdiv2 button {
-		padding: 3px 8px;
-		font-size: 6px;
+		padding: 4px 11px;
+		font-size: 9px;
 	}
 }
 
