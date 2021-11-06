@@ -602,6 +602,10 @@
 	border-radius: 10px;
 }
 
+.signupdiv {
+	padding: 10px;
+}
+
 .signupdiv h4 {
 	color: #F9FAF8;
 	font-size: 22px;
@@ -630,6 +634,10 @@
 		padding: 30px 0 30px 0;
 	}
 
+	.signupdiv {
+		padding: 7px;
+	}
+
 	.signupdiv h4 {
 		font-size: 18px;
 	}
@@ -650,6 +658,10 @@
 		padding: 20px 0 20px 0;
 	}
 
+	.signupdiv {
+		padding: 5px;
+	}
+
 	.signupdiv h4 {
 		font-size: 14px;
 	}
@@ -666,7 +678,11 @@
 
 @media only screen and (max-width: 400px) {
 	.signup {
-		padding: 3px 0 3px 0;
+		padding: 10px 0 10px 0;
+	}
+
+	.signupdiv {
+		padding: 3px;
 	}
 
 	.signupdiv h4 {
