@@ -322,7 +322,7 @@
 .information h2 {
 	text-align: center;
 	padding: 30px;
-	margin-top: 20px;
+	margin-top: 10px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 36px;
 	color: #1F2937;
@@ -334,20 +334,24 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 70px;
+	gap: 20px;
 }
 
 .outerbox {
-	width: 135px;
+	width: 100%;
+	border: transparent;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	padding: 5px;
 }
 
 .outerbox p {
-	padding: 1px;
+	padding: 3px;
+	font-size: 12px;
+	font-weight: 600;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -357,6 +361,7 @@
 	border: 3px solid #3882F6;
 	border-radius: 10px;
 	margin-bottom: 5px;
+	padding: 2px;
 }
 
 
@@ -376,11 +381,11 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		gap: 30px;
+		gap: 10px;
 	}
 
 	.outerbox {
-		width: 110px;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -390,7 +395,6 @@
 	
 	.outerbox p {
 		font-size: 10px;
-		font-family: Verdana, Geneva, Tahoma, sans-serif;
 	}
 
 	.innerbox {
@@ -419,11 +423,11 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		gap: 8px;
+		gap: 5px;
 	}
 
 	.outerbox {
-		width: 110px;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -456,11 +460,11 @@
 	}
 
 	.infodiv {
-		gap: 4px;
+		gap: 3px;
 	}
 
 	.outerbox {
-		width: 80px;
+		width: 100%;
 	}
 	
 	.outerbox p {
