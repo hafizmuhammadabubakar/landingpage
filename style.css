@@ -356,7 +356,7 @@
 }
 
 .innerbox {
-	width: 150px;
+	width: 20vh;
 	height: 140px;
 	border: 3px solid #3882F6;
 	border-radius: 10px;
@@ -399,7 +399,7 @@
 	}
 
 	.innerbox {
-		width: 130px;
+		width: 14vh;
 		height: 120px;
 		border: 3px solid #3882F6;
 		border-radius: 10px;
@@ -443,7 +443,7 @@
 	}
 
 	.innerbox {
-		width: 95px;
+		width: 10vh;
 		height: 95px;
 		border: 2px solid #3882F6;
 		border-radius: 5px;
@@ -475,7 +475,7 @@
 	}
 
 	.innerbox {
-		width: 70px;
+		width: 6vh;
 		height: 70px;
 		border: 2px solid #3882F6;
 		border-radius: 5px;
