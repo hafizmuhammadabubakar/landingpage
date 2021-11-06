@@ -602,10 +602,6 @@
 	border-radius: 10px;
 }
 
-.signupdiv {
-	padding: 10px;
-}
-
 .signupdiv h4 {
 	color: #F9FAF8;
 	font-size: 22px;
@@ -629,13 +625,12 @@
 }
 
 @media only screen and (max-width: 935px) { 
-
-	.signup {
-		padding: 30px 0 30px 0;
+	.signupmain {
+		height: 100px;
 	}
 
-	.signupdiv {
-		padding: 7px;
+	.signup {
+		padding: 40px 0 40px 0;
 	}
 
 	.signupdiv h4 {
@@ -653,13 +648,12 @@
 }
 
 @media only screen and (max-width: 600px) { 
-
-	.signup {
-		padding: 20px 0 20px 0;
+	.signupmain {
+		height: 70px;
 	}
 
-	.signupdiv {
-		padding: 5px;
+	.signup {
+		padding: 35px 0 35px 0;
 	}
 
 	.signupdiv h4 {
@@ -677,12 +671,12 @@
 }
 
 @media only screen and (max-width: 400px) {
-	.signup {
-		padding: 10px 0 10px 0;
+	.signupmain {
+		height: 40px;
 	}
 
-	.signupdiv {
-		padding: 3px;
+	.signup {
+		padding: 20px 0 20px 0;
 	}
 
 	.signupdiv h4 {
