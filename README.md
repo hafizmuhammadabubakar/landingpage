@@ -1,2 +1,2 @@
 # landingpage
-[Live Output](https://hmabubakar.github.io/landingpage/)
+[Live Output](https://webdevbravo.github.io/landingpage/)
