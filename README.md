@@ -1,2 +1,2 @@
 # landingpage
-[Live Preview](https://hafizmuhammadabubakar.github.io/landingpage/)
+[Live Preview](https://codewithabubakar.github.io/landingpage/)
